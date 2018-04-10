@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:xiaohou="http://schemas.android.com/apk/res/com.example.administrator.customview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ResAuto">
+
+    <com.example.administrator.customview.SwitchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:switch_background="@drawable/switch_background"
+        app:switch_src="@drawable/slide_button"
+        app:switch_state="false"
+        android:id="@+id/switchView"
+        />
+
+</android.support.constraint.ConstraintLayout>
